@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+---
+
+<Layout title="Inicio - Mi Proyecto">
+  <Navbar />
+  
+  <section class="hero is-info is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1">
+          ¡Bienvenido a tu Sistema Modular!
+        </h1>
+        <p class="subtitle is-3">
+          Astro + Django + PostgreSQL
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <h2 class="title is-4">Frontend con Astro</h2>
+            <p>Rápido, moderno y optimizado.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <h2 class="title is-4">Backend con Django</h2>
+            <p>API REST robusta y escalable.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <h2 class="title is-4">Base de datos PostgreSQL</h2>
+            <p>Almacenamiento confiable y potente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

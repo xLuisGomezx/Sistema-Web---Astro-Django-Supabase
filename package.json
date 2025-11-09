@@ -1,0 +1,25 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Sistema web modular con Astro, Django y PostgreSQL (Supabase)",
+  "private": true,
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && pip install -r requirements.txt",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python manage.py runserver",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\""
+  },
+  "keywords": [
+    "astro",
+    "django",
+    "postgresql",
+    "supabase",
+    "rest-api"
+  ],
+  "author": "Galux🗿",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

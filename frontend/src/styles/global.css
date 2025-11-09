@@ -1,0 +1,6 @@
+@import 'bulma/css/bulma.min.css';
+
+/* Aquí puedes agregar estilos personalizados globales */
+body {
+  min-height: 100vh;
+}

@@ -1,0 +1,29 @@
+---
+// --- Esta sección se ejecuta en el servidor ---
+// Definimos la interfaz para los props que acepta este layout
+interface Props {
+  title: string;
+}
+
+// Extraemos el prop 'title' que nos pasen
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content="Sistema modular con Astro y Django" />
+  </head>
+  <body>
+    <!-- El slot es donde se inyecta el contenido de las páginas -->
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  /* Cambiamos lang="scss" por CSS normal */
+  @import '../styles/global.css';
+</style>
