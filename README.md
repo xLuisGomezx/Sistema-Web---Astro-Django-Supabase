@@ -24,7 +24,7 @@ Sistema web con frontend en Astro, backend en Django y base de datos PostgreSQL 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/mi-proyecto.git
+git clone [https://github.com/tu-usuario/mi-proyecto.git](https://github.com/xLuisGomezx/Sistema-Web---Astro-Django-Supabase)
 cd mi-proyecto
 ```
 
